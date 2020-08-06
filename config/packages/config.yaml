@@ -1,0 +1,13 @@
+
+# Déclaration des paramètres
+# Avec des valeurs par défaut
+parameters:
+    some_parameter: "default_parameter"
+    some_other_parameter: "default_parameter"
+
+services:
+    # (facultatif) Valeur par défaut (ou non) pour l'interface
+    # Si pas défini dans l'environnement, symfony affichera l'erreur
+    #   "Cannot instantiate interface App\SomeService\SomeServiceInterface"
+    App\SomeService\SomeServiceInterface: ~
+

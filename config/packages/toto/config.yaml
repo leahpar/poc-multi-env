@@ -1,0 +1,10 @@
+
+# Reprise des paramètres avec les valeurs spécifiques pour l'environnement
+parameters:
+    some_parameter: "toto_parameter"
+    some_other_parameter: "toto_parameter"
+
+# Reprise des services avec les classes spécifiques pour l'environnement
+services:
+    #App\SomeService\SomeServiceInterface: '@App\SomeService\FixedService'
+
